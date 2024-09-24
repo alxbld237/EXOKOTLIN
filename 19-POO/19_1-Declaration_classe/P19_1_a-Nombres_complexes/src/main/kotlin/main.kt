@@ -1,6 +1,5 @@
-// write the class Complex here
-
-
+class Complex(var real: Double = 0.0, var image: Double = 0.0) {
+}
 fun main() {
     val number1 = Complex()
     number1.real = 5.0

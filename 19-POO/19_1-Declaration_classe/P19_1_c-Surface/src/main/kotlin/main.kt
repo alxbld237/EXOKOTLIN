@@ -4,7 +4,8 @@ class Rectangle {
 }
 
 fun printArea(rectangle: Rectangle) {
-    // ...
+    var area = rectangle.width * rectangle.height
+    println("The area of rectangle is : $area")
 }
 
 fun main() {
